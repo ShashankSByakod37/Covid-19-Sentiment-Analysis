@@ -17,7 +17,7 @@ One can try this in google colab, need to install some libraries such tensorflow
 ### Implemntation
 
 #### Preprocessing
- <b>Preparing the text for deep learning model using Tensorflow2
+ <b>Preparing the text for deep learning model using Tensorflow2</b>
   * Removal of stop words
   * Tokenization 
   * Sequencing
