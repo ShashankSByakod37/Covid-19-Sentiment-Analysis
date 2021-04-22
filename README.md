@@ -13,3 +13,21 @@ Sentiment Analysis is an analysis of the sentence, text at the document that giv
 ### Prerequisites
 
 One can try this in google colab, need to install some libraries such tensorflow.keras,numpy,pandas etc. We have implemented the Deep Learning model using Keras library.
+
+### Implemntation
+
+#### Preprocessing
+ <b>Preparing the text for deep learning model using Tensorflow2
+  * Removal of stop words
+  * Tokenization 
+  * Sequencing
+  * Padding
+  
+Accuracy is one metric used for evaluating classification of tweets into positive, negative and neutral tweets.
+
+Using LSTM model, we have 6 layers. One LSTM layer, two Dense layer, one input layer, one embedding layer and one global max pool layer.
+The validation accuracy is around 65%.
+
+Using BiLSTM model , we have used 10 layers. Out of that we have used 3 stacked BiLSTM layers, 2 Layers for Batch normalization, one embedding layer, and three dense layers.
+The validation accuracy is 97%.
+
